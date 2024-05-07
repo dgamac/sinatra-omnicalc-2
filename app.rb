@@ -5,7 +5,7 @@ get("/") do
   redirect("/add")
 end
 
-get("/ad") do
+get("/add") do
   erb(:add_form)
 end
 
@@ -28,7 +28,7 @@ get("/wizard_subtract") do
 end
 
 get("/multiply") do
-  erb(:multiplication_form)
+  erb(:mult_form)
 end
 
 get("/wizard multiply") do
